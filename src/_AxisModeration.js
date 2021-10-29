@@ -10,11 +10,11 @@ banned:
     - 'You''re now banned!'
     - 'Ban! Ban!'
   defaultReason: # %username% %author%
-    - 'You''re so hot to stay here <a:flame:901325248413204510>'
-    - 'Fly high! <a:5011kekwwa:901325243862360124>'
-    - 'Good bye <a:sadsponge:901325244353093674>'
-    - 'Talk to my ban hammer <a:blelele:901325242927054929>'
-    - 'The ban hammer has spoken to your ass! <a:holysmokes:901325256634036305>'
+    - 'You''re so hot to stay here'
+    - 'Fly high!'
+    - 'Good bye :wave:'
+    - 'Talk to my ban hammer!'
+    - 'The ban hammer has spoken to your ass!'
 kicked:
   title:
     - 'Kicked!'
@@ -23,9 +23,9 @@ kicked:
     - 'Kicked LUL'
   defaultReason: # %username% %author%
     - 'See you soon to get your ban :eyes:'
-    - 'Go to your momma now! <a:peperun:901325248769703936>'
+    - 'Go to your momma now!'
     - 'Kicked because you''re sus!'
-    - 'Ayoo! got kicked <a:pepesword:901325250900402206>'
+    - 'Ayoo! got kicked'
     - 'Kicked!'`;
 
 module.exports = function() {
