@@ -1,4 +1,4 @@
-# Axis-simple-moderation
+# Axis Simple Moderation
 
 Simple moderation commands for Axis.
  
