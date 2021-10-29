@@ -2,6 +2,7 @@ const { makeSentence, replaceAll } = require('fallout-utility');
 const { MessageEmbed } = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const safeMessage = require('../scripts/safeMessage');
+const _readAxisLang = require('./_AxisModeration');
 
 module.exports = new create();
 
@@ -18,7 +19,12 @@ function create(){
     };
 
     this.start = (client, action, conf, lang) => {
-        language = lang;
+        const getlang = new _readAxisLang();
+        language = {
+            ...lang,
+            ...getlang.get('./config/AxisModeration.yml')
+        };
+
         return true;
     }
     this.execute = async (args, message, client, action) => {
